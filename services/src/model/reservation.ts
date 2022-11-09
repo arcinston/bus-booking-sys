@@ -1,6 +1,24 @@
-const mongoose = require('mongoose')
+import mongoose from 'mongoose'
 
-const reservationSchema = mongoose.Schema({
+export interface IReservation extends mongoose.Document {
+    user: string;
+    from: string;
+    to: string;
+    train: string;
+    trainClass: string;
+    time: string;
+    qty: number;
+    date: number;
+    amount: number;
+    discount: number;
+    total: number;
+    paymentMethod: string;
+    card?: string;
+    phone?: string;
+    email?: string;
+}
+
+const reservationSchema = new mongoose.Schema({
     user: {
         type: String,
         required: true,
@@ -60,4 +78,4 @@ const reservationSchema = mongoose.Schema({
     }
 })
 
-const reservation = module.exports = mongoose.model('Reservation', reservationSchema)
+export default mongoose.model<IReservation>('Reservation', reservationSchema)

@@ -1,6 +1,20 @@
-const mongoose = require('mongoose')
+import mongoose from 'mongoose'
 
-const userSchema = mongoose.Schema({
+export interface IUser extends mongoose.Document {
+    fname: string;
+    lname: string;
+    phone: string;
+    nic?: string;
+    address: string;
+    email: string;
+    password: string;
+    discount: boolean;
+    enabled: boolean;
+    loginCount: number;
+    googleId?: string;
+}
+
+const userSchema = new mongoose.Schema({
     fname: {
         type: String,
         required: true,
@@ -45,4 +59,4 @@ const userSchema = mongoose.Schema({
     }
 })
 
-const user = module.exports = mongoose.model('User', userSchema)
+export default mongoose.model<IUser>('User', userSchema)

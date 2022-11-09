@@ -1,6 +1,13 @@
-const mongoose = require('mongoose')
+import mongoose from 'mongoose'
 
-const cardSchema = mongoose.Schema({
+export interface ICard extends mongoose.Document {
+    card: string;
+    cvv: string;
+    exp: string;
+    amount: number;
+}
+
+const cardSchema = new mongoose.Schema({
     card: {
         type: String,
         required: true,
@@ -19,4 +26,4 @@ const cardSchema = mongoose.Schema({
     }
 })
 
-const card = module.exports = mongoose.model('Card', cardSchema)
+export default mongoose.model<ICard>('Card', cardSchema)

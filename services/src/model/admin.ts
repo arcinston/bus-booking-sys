@@ -1,6 +1,17 @@
-const mongoose = require('mongoose')
+import mongoose,{ Document } from 'mongoose';
+//IAdmin is the interface for the admin model
+export interface IAdmin extends Document {
+   fname : string;
+    lname : string;
+    phone : string;
+    nic : string;
+    address : string;
+    email : string;
+    password : string;
+    enabled : boolean;
+}
 
-const adminSchema = mongoose.Schema({
+const adminSchema = new mongoose.Schema({
     fname: {
         type: String,
         required: true,
@@ -28,10 +39,10 @@ const adminSchema = mongoose.Schema({
         type: String,
         required: true,
     },
-    enabled : {
+    enabled: {
         type: Boolean,
         required: true
     }
 });
 
-const admin = module.exports = mongoose.model('Admin', adminSchema);
+export default mongoose.model<IAdmin>('Admin', adminSchema);

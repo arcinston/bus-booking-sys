@@ -1,6 +1,16 @@
-const mongoose = require('mongoose')
+import mongoose from 'mongoose'
 
-const routeSchema = mongoose.Schema({
+type TRoute ={
+    name: string;
+    fair: number;
+}
+
+export interface IRoute extends mongoose.Document {
+    name: string;
+    route: TRoute[];
+}
+
+const routeSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true,
@@ -19,4 +29,4 @@ const routeSchema = mongoose.Schema({
     ]
 })
 
-const route = module.exports = mongoose.model('Route', routeSchema)
+export default mongoose.model<IRoute>('Route', routeSchema)
