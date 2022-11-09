@@ -107,7 +107,7 @@ router.get('/admin/reg/:email', async (req, res) => {
   }
 });
 
-router.get('/admin/admins', async (req, res) => {
+router.get('/admin/admins', async (_req, res) => {
   try {
     const result = await AdminModel.find();
     res.status(200).json(result);

@@ -19,7 +19,7 @@ router.put('/users/:id', async (req, res) => {
   }
 });
 
-router.get('/users', async (req, res) => {
+router.get('/users', async (_req, res) => {
   try {
     var userList = await UserModel.find();
     res.status(200).json(userList);

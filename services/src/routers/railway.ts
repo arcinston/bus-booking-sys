@@ -9,7 +9,7 @@ import { sendReservationEmail, sendTextMessage } from '../client';
 import configs from '../config.json';
 import qrcode from 'qrcode';
 
-router.get('/railway/routes', async (req, res) => {
+router.get('/railway/routes', async (_req, res) => {
   try {
     const result = await routeModel.find();
     res.status(200).json(result);
@@ -27,7 +27,7 @@ router.get('/railway/route/:id', async (req, res) => {
   }
 });
 
-router.get('/railway/trains', async (req, res) => {
+router.get('/railway/trains', async (_req, res) => {
   try {
     const result = await trainModel.find();
     res.status(200).json(result);
@@ -127,7 +127,7 @@ router.post('/railway/reservations', async (req, res) => {
   }
 });
 
-router.get('/railway/reservations', async (req, res) => {
+router.get('/railway/reservations', async (_req, res) => {
   try {
     const result = await reservationModel.find();
     res.status(200).json(result);
@@ -240,14 +240,7 @@ router.put('/railway/route', async (req, res) => {
       if (found) {
         res.status(200).json({ stationExist: true });
       } else {
-        routeModel.updateOne(query, { $push: { route: body } }, (err: any) => {
-          if (err) {
-            console.log(err);
-            res.status(500).json(err);
-          } else {
-            res.status(200).json({ stationExist: false });
-          }
-        });
+        routeModel.updateOne(query, { $push: { route: body } });
       }
     }
   });

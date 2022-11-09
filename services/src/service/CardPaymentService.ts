@@ -1,6 +1,13 @@
 import CardModel from '../model/card';
 
 class CardPaymentService {
+  async pay(body: any) {
+    if (body.amount >= 0) {
+      return true;
+    }
+    return false;
+  }
+
   validateFields(data: { card: any; cvc: any; exp: any }) {
     return data.card && data.cvc && data.exp;
   }
