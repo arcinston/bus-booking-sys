@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "637f4219fa5d7fd0ca0eeb08"
+  },
+  "name": "1st class",
+  "fairRatio": 1.05
+},{
+  "_id": {
+    "$oid": "637f4246fa5d7fd0ca0eeb09"
+  },
+  "name": "2nd class",
+  "fairRatio": 1.02
+},{
+  "_id": {
+    "$oid": "637f43d2fa5d7fd0ca0eeb1d"
+  },
+  "name": "3rd class",
+  "fairRatio": 1
+}]

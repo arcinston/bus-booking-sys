@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "637f3ee451012dfb124fe435"
+  },
+  "classes": [
+    {
+      "name": "1st class",
+      "seats": 0
+    },
+    {
+      "name": "2nd class",
+      "seats": 0
+    },
+    {
+      "name": "3rd class",
+      "seats": 0
+    }
+  ],
+  "name": "Bus To Mondal",
+  "route": "main-line",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637f41c1fa5d7fd0ca0eeb05"
+  },
+  "name": "Udarata Menike",
+  "route": "main-line",
+  "classes": [
+    {
+      "name": "1st class",
+      "seats": 30
+    },
+    {
+      "name": "2nd class",
+      "seats": 100
+    },
+    {
+      "name": "3rd class",
+      "seats": 150
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "637f41dbfa5d7fd0ca0eeb06"
+  },
+  "name": "Podi Menike",
+  "route": "main-line",
+  "classes": [
+    {
+      "name": "1st class",
+      "seats": 20
+    },
+    {
+      "name": "2nd class",
+      "seats": 100
+    },
+    {
+      "name": "3rd class",
+      "seats": 200
+    }
+  ]
+}]
