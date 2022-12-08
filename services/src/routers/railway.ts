@@ -108,7 +108,7 @@ router.post('/railway/reservations', async (req, res) => {
       body.qty +
       ' </b></p><p>Total : <b> ' +
       body.total +
-      ' LKR</b></p><br><img src="cid:123"/></body></html>';
+      ' INR</b></p><br><img src="cid:123"/></body></html>';
     sendReservationEmail({
       ...body,
       html: html,

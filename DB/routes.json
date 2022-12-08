@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "637f3daefa5d7fd0ca0eeaf6"
+  },
+  "name": "via Jamdoli",
+  "route": [
+    {
+      "name": "LNMIIT",
+      "fair": 25
+    },
+    {
+      "name": "BH5",
+      "fair": 25
+    },
+    {
+      "name": "Pink Square",
+      "fair": 25
+    },
+    {
+      "name": "Raja Park Bus Stop",
+      "fair": 25
+    },
+    {
+      "name": "Ajmeri Gate",
+      "fair": 25
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "637f3e0ffa5d7fd0ca0eeaf7"
+  },
+  "name": "via Jaisinghpurakhor",
+  "route": [
+    {
+      "name": "LNMIIT",
+      "fair": 25
+    },
+    {
+      "name": "BH5",
+      "fair": 25
+    },
+    {
+      "name": "Pink Square",
+      "fair": 25
+    },
+    {
+      "name": "Raja Park Bus Stop",
+      "fair": 25
+    },
+    {
+      "name": "Ajmeri Gate Bus Stop",
+      "fair": 25
+    }
+  ]
+}]

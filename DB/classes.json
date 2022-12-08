@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "637f4219fa5d7fd0ca0eeb08"
+  },
+  "name": "AC",
+  "fairRatio": 1.1
+},{
+  "_id": {
+    "$oid": "637f4246fa5d7fd0ca0eeb09"
+  },
+  "name": "Non AC",
+  "fairRatio": 1.1
+}]

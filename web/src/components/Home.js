@@ -255,15 +255,15 @@ class Home extends Component {
                                     </tr>
                                     <tr>
                                         <td align='right' style={{ border: "1px solid #dee2e6" }}>Amount</td>
-                                        <td align='right' style={{ border: "1px solid #dee2e6" }}>{this.state.amount} LKR</td>
+                                        <td align='right' style={{ border: "1px solid #dee2e6" }}>{this.state.amount} INR</td>
                                     </tr>
                                     <tr>
                                         <td align='right' style={{ border: "1px solid #dee2e6" }}>Discount</td>
-                                        <td align='right' style={{ border: "1px solid #dee2e6" }}>{this.state.discount} LKR</td>
+                                        <td align='right' style={{ border: "1px solid #dee2e6" }}>{this.state.discount} INR</td>
                                     </tr>
                                     <tr>
                                         <td align='right' style={{ border: "1px solid #dee2e6" }}>Total</td>
-                                        <td align='right' style={{ border: "1px solid #dee2e6" }}>{this.state.total} LKR</td>
+                                        <td align='right' style={{ border: "1px solid #dee2e6" }}>{this.state.total} INR</td>
                                     </tr>
                                 </tbody>
                             </Table>

@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "637f7393c793f928604ba941"
+  },
+  "phone": "923812931321",
+  "user": "636bbdaf14f5740278342970",
+  "email": "aryan@gmail.com",
+  "from": "LNMIIT",
+  "to": "BH5",
+  "train": "B1",
+  "trainClass": "AC",
+  "time": "05.00 am",
+  "qty": 1,
+  "date": "2022-11-25",
+  "amount": 21,
+  "discount": 0,
+  "total": 21,
+  "paymentMethod": "cash",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637f745bc793f928604ba952"
+  },
+  "phone": "923812931321",
+  "user": "636bbdaf14f5740278342970",
+  "email": "aryan@gmail.com",
+  "from": "LNMIIT",
+  "to": "Pink Square",
+  "train": "B1",
+  "trainClass": "Non AC",
+  "time": "06.00 am",
+  "qty": 2,
+  "date": "2022-11-25",
+  "amount": 81.6,
+  "discount": 0,
+  "total": 81.6,
+  "paymentMethod": "cash",
+  "__v": 0
+}]

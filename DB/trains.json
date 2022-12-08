@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "637f7624c793f928604ba96f"
+  },
+  "classes": [
+    {
+      "name": "AC",
+      "seats": 80
+    },
+    {
+      "name": "Non AC",
+      "seats": 80
+    },
+    {
+      "name": "Only Staff",
+      "seats": 60
+    }
+  ],
+  "name": "Bus Number 1",
+  "route": "via Jamdoli",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637f762dc793f928604ba974"
+  },
+  "classes": [
+    {
+      "name": "AC",
+      "seats": 60
+    },
+    {
+      "name": "Non AC",
+      "seats": 80
+    },
+    {
+      "name": "Only Staff",
+      "seats": 80
+    }
+  ],
+  "name": "Bus Number 2",
+  "route": "via Jamdoli",
+  "__v": 0
+}]

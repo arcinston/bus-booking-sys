@@ -119,7 +119,7 @@ const sendTextMessage = async (body: {
         body.qty +
         ' \n Total : ' +
         body.total +
-        ' LKR',
+        ' INR',
       from: config.messageClient.phoneNo,
       to: to,
     })

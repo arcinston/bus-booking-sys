@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "637f4285fa5d7fd0ca0eeb0c"
+  },
+  "time": "08.00 am"
+},{
+  "_id": {
+    "$oid": "637f42acfa5d7fd0ca0eeb0d"
+  },
+  "time": "10.45 am"
+},{
+  "_id": {
+    "$oid": "637f42b3fa5d7fd0ca0eeb0e"
+  },
+  "time": "01.00 pm"
+},{
+  "_id": {
+    "$oid": "637f79144e0392edaf1b4ee3"
+  },
+  "time": "04.00 pm"
+},{
+  "_id": {
+    "$oid": "637f79264e0392edaf1b4ee4"
+  },
+  "time": "06.00 pm"
+},{
+  "_id": {
+    "$oid": "637f793a4e0392edaf1b4ee5"
+  },
+  "time": "09.00 pm"
+}]

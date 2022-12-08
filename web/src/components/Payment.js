@@ -119,15 +119,15 @@ class Payment extends Component {
                             <tbody>
                                 <tr>
                                     <td align='right'>Amount</td>
-                                    <td align='right'>{this.state.amount} LKR</td>
+                                    <td align='right'>{this.state.amount} INR</td>
                                 </tr>
                                 <tr>
                                     <td align='right'>Discount</td>
-                                    <td align='right'>{this.state.discount} LKR</td>
+                                    <td align='right'>{this.state.discount} INR</td>
                                 </tr>
                                 <tr>
                                     <td align='right'>Total</td>
-                                    <td align='right'>{this.state.total} LKR</td>
+                                    <td align='right'>{this.state.total} INR</td>
                                 </tr>
                             </tbody>
                         </Table>

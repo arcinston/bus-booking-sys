@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "636bbae914f5740278342945"
+  },
+  "fname": "aryan",
+  "lname": "singhu",
+  "phone": "9430249234",
+  "nic": "arcinston",
+  "address": "asd",
+  "email": "arc@gmail.com",
+  "password": "-327142190",
+  "enabled": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "637f6f55c793f928604ba8ff"
+  },
+  "fname": "Harshal",
+  "lname": "Jain",
+  "nic": "XYZ",
+  "phone": "9285533764",
+  "email": "harshaljainprivate@gmail.com",
+  "address": "Bhopal",
+  "password": "-1165489257",
+  "enabled": false,
+  "__v": 0
+}]
