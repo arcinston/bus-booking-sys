@@ -94,7 +94,7 @@ class Reports extends React.Component {
                                 <FormGroup>
                                     <Label for="reportYearOne">Year</Label>
                                     <Input type="text" name="yearOne" id="reportYearOne"
-                                           placeholder="2019" value={this.state.yearOne}
+                                           placeholder="2022" value={this.state.yearOne}
                                            onChange={this.handleChange}/>
                                 </FormGroup>
                                 {this.state.yearOne !== '' &&
@@ -117,7 +117,7 @@ class Reports extends React.Component {
                                 <FormGroup>
                                     <Label for="reportYearTwo">Year</Label>
                                     <Input type="text" name="yearTwo" id="reportYearTwo"
-                                           placeholder="2019" value={this.state.yearTwo}
+                                           placeholder="2022" value={this.state.yearTwo}
                                            onChange={this.handleChange}/>
                                 </FormGroup>
                                 <FormGroup>
