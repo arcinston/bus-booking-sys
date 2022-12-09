@@ -28,15 +28,7 @@ app.use(function (_req, res, next) {
   next();
 });
 
-app.use(login);
-app.use(register);
-app.use(railway);
-app.use(payment);
-app.use(gov);
-app.use(user);
-app.use(contact);
-app.use(admin);
-
+app.use(login, register, railway, payment, gov, user, contact, admin);
 app.listen(3001, () => {
   console.log('app listening on port 3001');
 });

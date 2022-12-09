@@ -15,7 +15,7 @@ class GoogleUser extends User {
       (this.phone = 'Enter phone'),
       (this.address = 'Enter address'),
       (this.password = 'null - random'),
-      (this.nic = 'Enter NIC'),
+      (this.nic = 'Enter Roll No'),
       (this.discount = false),
       (this.enabled = true),
       (this.loginCount = data.loginCount);
