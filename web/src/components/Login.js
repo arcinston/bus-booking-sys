@@ -4,7 +4,6 @@ import { Modal, Button, Form, Image, Row, Alert } from 'react-bootstrap'
 import { login, updateAccount, register } from '../Services'
 import { getHash } from './commons/Functions'
 import { toast } from 'react-toastify'
-import GoogleLogin from 'react-google-login';
 
 class Login extends Component {
 
@@ -88,7 +87,7 @@ class Login extends Component {
     };
 
     errResponseGoogle = (response) => {
-        toast.error("Unable to Sign in with Google !");
+        // toast.error("Unable to Sign in with Google !");
     }
 
     render() {
@@ -103,7 +102,7 @@ class Login extends Component {
                         <Row style={{ alignItems: 'center', justifyContent: 'center', marginBottom: 15 }}>
                             {img}
                         </Row>
-                        <Row style={{ alignItems: 'center', justifyContent: 'center' }}>
+                        {/* <Row style={{ alignItems: 'center', justifyContent: 'center' }}>
                             <GoogleLogin
                                 style={{ width: '100%' }}
                                 clientId="142559740236-kl8af28rsfc12v2e4rulgg97ijhdla5d.apps.googleusercontent.com"
@@ -111,7 +110,7 @@ class Login extends Component {
                                 onSuccess={this.responseGoogle}
                                 onFailure={this.errResponseGoogle}
                             />
-                        </Row>
+                        </Row> */}
                         <hr />
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label>Email</Form.Label>

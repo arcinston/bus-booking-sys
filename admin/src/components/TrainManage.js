@@ -12,11 +12,11 @@ class TrainManage extends React.Component {
             route: 'Select a Route',
             classes: [
                 {
-                    name: '1st class',
+                    name: 'AC',
                     seats: 0
                 },
                 {
-                    name: '2nd class',
+                    name: 'Non AC',
                     seats: 0
                 },
                 {

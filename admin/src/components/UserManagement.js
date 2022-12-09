@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { Button, Form, Col, Row, Table, Modal } from 'react-bootstrap'
+import { Button, Form, Row, Table, } from 'react-bootstrap'
 import { toast } from 'react-toastify'
 import { updateUser, users, deleteUser } from "../Services";
 

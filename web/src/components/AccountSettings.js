@@ -136,8 +136,8 @@ class AccountSettings extends Component {
                                                           value={this.state.phone}/>
                                         </Form.Group>
                                         <Form.Group as={Col} controlId="formGridNIC">
-                                            <Form.Label>NIC</Form.Label>
-                                            <Form.Control type="username" placeholder="Enter NIC"
+                                            <Form.Label>Roll NO</Form.Label>
+                                            <Form.Control type="username" placeholder="Enter Roll No"
                                                           onChange={this.handleChange('nic')} value={this.state.nic}/>
                                         </Form.Group>
                                     </Form.Row>

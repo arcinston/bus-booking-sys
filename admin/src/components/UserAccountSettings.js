@@ -114,8 +114,8 @@ class UserAccountSettings extends Component {
                                         <Form.Control required type="username" placeholder="Enter Phone Number" onChange={this.handleChange('phone')} value={this.state.phone} />
                                     </Form.Group>
                                     <Form.Group as={Col} controlId="formGridNIC">
-                                        <Form.Label>NIC</Form.Label>
-                                        <Form.Control type="username" placeholder="Enter NIC" onChange={this.handleChange('nic')} value={this.state.nic} />
+                                        <Form.Label>Roll NO</Form.Label>
+                                        <Form.Control type="username" placeholder="Enter Roll No" onChange={this.handleChange('nic')} value={this.state.nic} />
                                     </Form.Group>
                                 </Form.Row>
                                 <Form.Group controlId="controlTextarea1">

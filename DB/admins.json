@@ -9,7 +9,7 @@
   "address": "asd",
   "email": "arc@gmail.com",
   "password": "-327142190",
-  "enabled": false,
+  "enabled": true,
   "__v": 0
 },{
   "_id": {
@@ -22,6 +22,19 @@
   "email": "harshaljainprivate@gmail.com",
   "address": "Bhopal",
   "password": "-1165489257",
+  "enabled": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6391fc376b2c7a4f0b486a7e"
+  },
+  "fname": "Arush",
+  "lname": "Kurundodi",
+  "phone": "+917021392046",
+  "address": "C-401, Ashok Nagar , Military Road , Marol , Andheri East ,Mumbai",
+  "email": "arushkurundodi@gmail.com",
+  "nic": "12345",
+  "password": "-1229933358",
   "enabled": false,
   "__v": 0
 }]

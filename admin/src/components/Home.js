@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 
-import { Image, Form, Col, Row, Table } from 'react-bootstrap'
-import Select from 'react-select'
-import DatePicker from "react-datepicker"
-import moment from 'moment'
+import { Image,} from 'react-bootstrap'
+
 
 class Home extends Component {
 

@@ -28,4 +28,18 @@
   "enabled": true,
   "__v": 0,
   "loginCount": 0
+},{
+  "_id": {
+    "$oid": "6391fc866b2c7a4f0b486a87"
+  },
+  "email": "user@gmail.com",
+  "fname": "User",
+  "lname": "Test",
+  "phone": "123456789",
+  "address": "just an adrress",
+  "password": "-1229933358",
+  "discount": false,
+  "enabled": true,
+  "__v": 0,
+  "loginCount": 1
 }]

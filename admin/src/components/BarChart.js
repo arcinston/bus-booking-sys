@@ -1,5 +1,5 @@
 import React from "react";
-import {Bar, Pie} from "react-chartjs-2";
+import {Bar} from "react-chartjs-2";
 import {MDBContainer} from "mdbreact";
 import {Jumbotron, Row} from "reactstrap";
 

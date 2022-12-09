@@ -87,8 +87,8 @@ class Register extends Component {
                             <Form.Control required type="username" placeholder="Enter Phone Number" onChange={this.handleChange('phone')} />
                         </Form.Group>
                         <Form.Group controlId="formGridNIC">
-                            <Form.Label>NIC</Form.Label>
-                            <Form.Control type="username" placeholder="Enter NIC (Optional)" onChange={this.handleChange('nic')} />
+                            <Form.Label>Roll No</Form.Label>
+                            <Form.Control type="username" placeholder="Enter Roll No (Optional)" onChange={this.handleChange('nic')} />
                         </Form.Group>
                         <Form.Group controlId="controlTextarea1">
                             <Form.Label>Address</Form.Label>

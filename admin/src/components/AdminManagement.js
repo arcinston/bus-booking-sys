@@ -109,8 +109,8 @@ class AdminManagement extends Component {
                                           onChange={this.handleChange('phone')}/>
                         </Form.Group>
                         <Form.Group as={Col} controlId="adminNic">
-                            <Form.Label>NIC</Form.Label>
-                            <Form.Control required type="username" placeholder="Enter NIC "
+                            <Form.Label>Roll No</Form.Label>
+                            <Form.Control required type="username" placeholder="Enter Roll No "
                                           onChange={this.handleChange('nic')}/>
                         </Form.Group>
                     </Form.Row>
