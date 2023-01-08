@@ -21,7 +21,7 @@ class Home extends Component {
     }
 
     componentDidMount() {
-        var options = []
+        var options = new Set();
         routes()
             .then(res => {
                 res.map((item, i) => {
