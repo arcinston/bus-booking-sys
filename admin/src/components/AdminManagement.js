@@ -110,7 +110,7 @@ class AdminManagement extends Component {
                         </Form.Group>
                         <Form.Group as={Col} controlId="adminNic">
                             <Form.Label>Admin Number</Form.Label>
-                            <Form.Control required type="username" placeholder="Enter Roll No "
+                            <Form.Control required type="username" placeholder="Enter Admin No "
                                           onChange={this.handleChange('nic')}/>
                         </Form.Group>
                     </Form.Row>

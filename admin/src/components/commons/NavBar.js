@@ -20,7 +20,7 @@ class NavBar extends Component {
                         {user ?
                             <>
                                 <Nav.Link href="/">{'Home'}</Nav.Link>
-                                <Nav.Link href="/reports">{'Reports'}</Nav.Link>
+                                {/* <Nav.Link href="/reports">{'Reports'}</Nav.Link> */}
                                 <Nav.Link href="/routeManage">{'Routes'}</Nav.Link>
                                 <Nav.Link href="/trainManage">{'Buses'}</Nav.Link>
                                 <Nav.Link href="/admins">{'Admins'}</Nav.Link>
